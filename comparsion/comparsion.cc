@@ -5,7 +5,7 @@
 #include "./../algorithm/optimized_recursion.hh"
 
 int main() {
-    const unsigned long long n = 10;
+    const unsigned long long n = 44;
     std::chrono::time_point<std::chrono::steady_clock> start;
     fib_alg::ClassicRecursion classic_recursion;
     fib_alg::Iteration iteration;
